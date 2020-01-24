@@ -263,6 +263,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &968909797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3579079176373441972, guid: 5332173c4f07426459513ccbf15283eb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3579079175171385693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &968909798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968909797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0914627fb646aaf4ca80dd86b5ea6f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 4816126258175730996, guid: a12f285e4037e1a4696ee93b5746013f,
+    type: 3}
+  speed: 5
+  leftAndRightEdge: 14
+  chanceToChangeDirections: 0.01
+  secoundsBetweenAppleDrops: 1
 --- !u!1001 &3579079175171385693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -274,6 +298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579079176373441972, guid: 5332173c4f07426459513ccbf15283eb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3579079176373441975, guid: 5332173c4f07426459513ccbf15283eb,
         type: 3}
@@ -329,6 +358,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579079176373441974, guid: 5332173c4f07426459513ccbf15283eb,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579079174992595227, guid: 5332173c4f07426459513ccbf15283eb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579079174995143857, guid: 5332173c4f07426459513ccbf15283eb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5332173c4f07426459513ccbf15283eb, type: 3}
